@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Raven\n"
+"POT-Creation-Date: 2014-10-29 13:19-0600\n"
+"PO-Revision-Date: 2014-10-29 13:20-0600\n"
+"Last-Translator: Len Kutchma <lkutchma@gmail.com>\n"
+"Language-Team: WPCanada <lkutchma@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../functions.php:9
+msgid "Raven Theme"
+msgstr ""
+
+#: ../../functions.php:111
+msgid "Join the Discussion!"
+msgstr ""
+
+#: ../../functions.php:112
+msgid "Please submit your comment with a real name."
+msgstr ""
+
+#: ../../functions.php:113
+msgid "Thanks for your feedback!"
+msgstr ""
+
+#: ../../functions.php:130
+msgid "Welcome Text"
+msgstr ""
+
+#: ../../functions.php:131
+msgid "This is the welcome text widget area."
+msgstr ""
+
+#: ../../functions.php:135
+msgid "Before Entry"
+msgstr ""
+
+#: ../../functions.php:136
+msgid "This is the Before Entry widget area."
+msgstr ""

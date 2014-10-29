@@ -1,0 +1,4 @@
+*** Raven Changelog ***
+
+29 OCT 2014 - version 1.0.0
+	* Initial release
