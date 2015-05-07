@@ -2,3 +2,7 @@
 
 29 OCT 2014 - version 1.0.0
 	* Initial release
+
+06 MAY 2015 - version 1.0.1
+	* security update - removed example.html from childtheme/lib/font/ directory. File is vulnerable to a cross-site scripting attack.
+	Further details: https://wordpress.org/news/2015/05/wordpress-4-2-2/
