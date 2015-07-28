@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Raven\n"
-"POT-Creation-Date: 2014-10-29 13:19-0600\n"
-"PO-Revision-Date: 2014-10-29 13:20-0600\n"
+"POT-Creation-Date: 2015-07-27 17:05-0600\n"
+"PO-Revision-Date: 2015-07-27 17:05-0600\n"
 "Last-Translator: Len Kutchma <lkutchma@gmail.com>\n"
 "Language-Team: WPCanada <lkutchma@gmail.com>\n"
 "Language: English\n"
@@ -30,18 +30,27 @@ msgstr ""
 msgid "Thanks for your feedback!"
 msgstr ""
 
-#: ../../functions.php:130
+#: ../../functions.php:132
+#, php-format
+msgid ""
+"<strong>Well done!</strong> You have successfully activated Raven. You can "
+"configure your settings via the <a href=\"%s\" title=\"Genesis Framework "
+"Settings\">Genesis settings page</a>. If you have any questions be sure to "
+"read the theme documentation at <strong>http://docs.wpcanada.ca</strong>"
+msgstr ""
+
+#: ../../functions.php:140
 msgid "Welcome Text"
 msgstr ""
 
-#: ../../functions.php:131
+#: ../../functions.php:141
 msgid "This is the welcome text widget area."
 msgstr ""
 
-#: ../../functions.php:135
+#: ../../functions.php:145
 msgid "Before Entry"
 msgstr ""
 
-#: ../../functions.php:136
+#: ../../functions.php:146
 msgid "This is the Before Entry widget area."
 msgstr ""

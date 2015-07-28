@@ -8,7 +8,7 @@ load_child_theme_textdomain( 'raven', apply_filters( 'child_theme_textdomain', g
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Raven Theme', 'raven' ) );
 define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/raven/' );
-define( 'CHILD_THEME_VERSION', '1.0.1' );
+define( 'CHILD_THEME_VERSION', '1.1.0' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5' );
@@ -123,6 +123,16 @@ function raven_search_text( $text ) {
 
 // Add support for structural wraps
 add_theme_support( 'genesis-structural-wraps', array( 'header', 'nav', 'subnav', 'inner', 'footer-widgets', 'footer' ) );
+
+//* Theme activation message
+add_action( 'admin_notices', 'raven_welcome' );
+function raven_welcome() {
+	global $pagenow;
+	if ( is_admin() && isset($_GET['activated'] ) && $pagenow == "themes.php" ) {
+		$settings = sprintf( __( '<strong>Well done!</strong> You have successfully activated Raven. You can configure your settings via the <a href="%s" title="Genesis Framework Settings">Genesis settings page</a>. If you have any questions be sure to read the theme documentation at <strong>http://docs.wpcanada.ca</strong>', 'raven' ) , admin_url( 'admin.php?page=genesis' ) );
+		$output = printf( '<div class="updated"><p>%1$s</p></div>', $settings );
+	}
+}
 
 //* Register widget areas
 genesis_register_sidebar( array(
