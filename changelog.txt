@@ -10,3 +10,6 @@
 27 JULY 2015 - version 1.1.0
 	* added theme activation message
 	* updated POT file
+
+26 AUG 2015 - version 1.1.1
+	* added missing translation string to search box placeholder text. Props @wickedpuppy https://github.com/wickedpuppy

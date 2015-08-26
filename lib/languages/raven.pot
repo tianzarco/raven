@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Raven\n"
-"POT-Creation-Date: 2015-07-27 17:05-0600\n"
-"PO-Revision-Date: 2015-07-27 17:05-0600\n"
+"POT-Creation-Date: 2015-08-26 12:52-0600\n"
+"PO-Revision-Date: 2015-08-26 12:52-0600\n"
 "Last-Translator: Len Kutchma <lkutchma@gmail.com>\n"
 "Language-Team: WPCanada <lkutchma@gmail.com>\n"
 "Language: English\n"
@@ -28,6 +28,10 @@ msgstr ""
 
 #: ../../functions.php:113
 msgid "Thanks for your feedback!"
+msgstr ""
+
+#: ../../functions.php:121
+msgid "Search this website..."
 msgstr ""
 
 #: ../../functions.php:132

@@ -8,7 +8,7 @@ load_child_theme_textdomain( 'raven', apply_filters( 'child_theme_textdomain', g
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Raven Theme', 'raven' ) );
 define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/raven/' );
-define( 'CHILD_THEME_VERSION', '1.1.0' );
+define( 'CHILD_THEME_VERSION', '1.1.1' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5' );
