@@ -118,7 +118,7 @@ function raven_comment_form_defaults( $defaults ) {
 //* Customize search form placeholder text
 add_filter( 'genesis_search_text', 'raven_search_text' );
 function raven_search_text( $text ) {
-	return esc_attr( 'Search this website...' );
+	return esc_attr( __( 'Search this website...' ) );
 }
 
 // Add support for structural wraps
