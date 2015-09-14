@@ -8,10 +8,13 @@ load_child_theme_textdomain( 'raven', apply_filters( 'child_theme_textdomain', g
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Raven Theme', 'raven' ) );
 define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/raven/' );
-define( 'CHILD_THEME_VERSION', '1.1.1' );
+define( 'CHILD_THEME_VERSION', '1.2.0' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5' );
+
+//* Add Accessibility support
+add_theme_support( 'genesis-accessibility', array( 'headings', 'drop-down-menu',  'search-form', 'skip-links', 'rems' ) );
 
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );

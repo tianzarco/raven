@@ -13,3 +13,7 @@
 
 26 AUG 2015 - version 1.1.1
 	* added missing translation string to search box placeholder text. Props @wickedpuppy https://github.com/wickedpuppy
+
+14 SEPT 2015 - version 1.2.0
+	* activated Genesis accessibility features ... further reading http://genesis-accessible.org/2015/07/genesis-2-2-accessibility-changes-and-features/
+	* removed gist styling
